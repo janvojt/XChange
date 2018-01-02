@@ -47,11 +47,13 @@ public class Currency implements Comparable<Currency>, Serializable {
   public static final Currency BHD = createCurrency("BHD", "Bahraini Dinar", null);
   public static final Currency BIF = createCurrency("BIF", "Burundian Franc", null);
   public static final Currency BMD = createCurrency("BMD", "Bermudan Dollar", null);
+  public static final Currency BNB = createCurrency("BNB", "Binance Coin", null);
   public static final Currency BND = createCurrency("BND", "Brunei Dollar", null);
   public static final Currency BOB = createCurrency("BOB", "Bolivian Boliviano", null);
   public static final Currency BRL = createCurrency("BRL", "Brazilian Real", "R$");
   public static final Currency BSD = createCurrency("BSD", "Bahamian Dollar", null);
   public static final Currency BTC = createCurrency("BTC", "Bitcoin", null, "XBT");
+  public static final Currency BTG = createCurrency("BTG", "BitcoinGold", null);
   public static final Currency XBT = getInstance("XBT");
   public static final Currency BTN = createCurrency("BTN", "Bhutanese Ngultrum", null);
   public static final Currency BWP = createCurrency("BWP", "Botswanan Pula", null);
